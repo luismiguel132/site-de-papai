@@ -6,7 +6,7 @@ function showSlide(n) {
     if (n >= slideCount) index = 0;
     else if (n < 0) index = slideCount - 1;
     else index = n;
-    
+
     slides.style.transform = `translateX(-${index * 100}%)`;
 }
 

@@ -134,7 +134,7 @@ body {
     display: inline-block;
     text-align: center;
     font-size: 25px;
-    font-family: "Calistoga", serif;
+    font-family: "Montserrat", sans-serif;
     background-color: #25aaaa59;
     padding: 10px 20px;
     margin: 0 auto;
@@ -172,6 +172,61 @@ body {
 .texto-sobre p {
     margin: 0 0 10px;
     line-height: 1.6;
+}
+
+.comments-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #a0c4bd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.comments-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+#comments-container {
+    margin-bottom: 20px;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #0074E0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.comment-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.comment-author {
+    font-size: 16px;
+    color: #555;
+    font-family: "Montserrat", sans-serif;
+    text-align: right;
+}
+
+.link {
+    display: block;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 
